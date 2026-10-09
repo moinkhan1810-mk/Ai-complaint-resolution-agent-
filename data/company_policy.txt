@@ -1,0 +1,13 @@
+COMPANY COMPLAINT RESOLUTION POLICY:
+
+1. Shipping Delays:
+   - If an order is delayed by more than 7 days, the customer is eligible for a 15% refund on the shipping cost.
+   - If an order is delayed by more than 14 days, the customer is eligible for a full refund of the shipping cost and a $10 store credit.
+   - Support agents must apologize for the delay and the lack of previous communication.
+
+2. Escalation Rules:
+   - If the customer has contacted support twice or more without a response, the issue MUST be escalated to a Tier 2 Support Manager.
+   - Do not offer refunds for escalated Tier 2 issues directly; let the manager handle it.
+
+3. Tone and Professionalism:
+   - Replies must be empathetic, professional, and take ownership of the mistake.
