@@ -1,19 +1,15 @@
 import os
 import pandas as pd
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew, Process, LLM
 from crewai.tools import tool
-from crewai import LLM
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# --- Initialize Groq LLM ---
+# --- Initialize CrewAI LLM for Groq ---
 llm = LLM(
     model="groq/llama-3.3-70b-versatile",
     temperature=0.2
-)
-    groq_api_key=os.getenv("GROQ_API_KEY"),
-    model_name="llama-3.3-70b-versatile"
 )
 
 # --- Define Custom Tools ---
@@ -63,7 +59,6 @@ complaint_agent = Agent(
 )
 
 # --- Define the Task ---
-# We instruct the agent to output exactly what the slide requires: Category, Priority, Resolution, Reply, Ticket.
 
 def create_complaint_task(user_request):
     return Task(
