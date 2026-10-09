@@ -2,15 +2,16 @@ import os
 import pandas as pd
 from crewai import Agent, Task, Crew, Process
 from crewai.tools import tool
-from langchain_groq import ChatGroq
+from crewai import LLM
 from dotenv import load_dotenv
 
 load_dotenv()
 
 # --- Initialize Groq LLM ---
-# Using Llama 3 on Groq for fast inference
-llm = ChatGroq(
-    temperature=0.2,
+llm = LLM(
+    model="groq/llama-3.3-70b-versatile",
+    temperature=0.2
+)
     groq_api_key=os.getenv("GROQ_API_KEY"),
     model_name="llama-3.3-70b-versatile"
 )
