@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from crewai import Agent, Task, Crew, Process
-from crewai_tools import tool
+from crewai.tools import tool
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 
@@ -12,7 +12,7 @@ load_dotenv()
 llm = ChatGroq(
     temperature=0.2,
     groq_api_key=os.getenv("GROQ_API_KEY"),
-    model_name="llama3-70b-8192"
+    model_name="llama-3.3-70b-versatile"
 )
 
 # --- Define Custom Tools ---
