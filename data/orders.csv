@@ -1,4 +1,0 @@
-order_id,customer_name,order_date,status,delay_days,previous_contacts
-1001,John Doe,2023-10-01,Delayed,12,2
-1002,Jane Smith,2023-10-05,Processing,0,0
-1003,Bob Johnson,2023-09-20,Delayed,20,1
