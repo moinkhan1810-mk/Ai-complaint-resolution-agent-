@@ -1,6 +1,0 @@
-order_id,customer_name,order_date,expected_delivery_date,current_status,tracking_reference,items
-ORD-1001,John Doe,2026-09-25,2026-09-29,Delayed (10 days past expected),TRK-882910,Wireless Headphones
-ORD-1002,Jane Smith,2026-10-01,2026-10-05,Delivered,TRK-992102,Smart Watch
-ORD-1003,Robert Chen,2026-10-03,2026-10-07,Shipped,TRK-441029,Mechanical Keyboard
-ORD-1004,Alice Johnson,2026-09-28,2026-10-02,Damaged In Transit,TRK-110293,Ceramic Coffee Mug Set
-ORD-1005,Michael Brown,2026-10-06,2026-10-10,Processing,N/A,Gaming Mouse
