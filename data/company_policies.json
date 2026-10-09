@@ -1,0 +1,26 @@
+{
+  "late_deliveries": {
+    "category": "Late Delivery",
+    "policy": "Orders delayed past the expected delivery date by 1 to 5 days receive a $10 courtesy credit or free expedited shipping on the next order. Orders delayed by more than 7 days are eligible for a full shipping fee refund and an optional full order cancellation with a 100% refund if the package has not arrived."
+  },
+  "damaged_products": {
+    "category": "Damaged Product",
+    "policy": "Customers reporting damaged goods within 14 days of receipt are eligible for an immediate replacement at zero cost or a 100% full refund upon photo verification of damage."
+  },
+  "refunds_and_returns": {
+    "category": "Refunds and Returns",
+    "policy": "Standard items can be returned within 30 days of delivery in unused condition. Refunds are processed within 3-5 business days after inspection at our warehouse."
+  },
+  "missing_items": {
+    "category": "Missing Item",
+    "policy": "If an item is missing from a delivered package, notify support within 7 days for priority reshipment of the missing item or a pro-rated refund."
+  },
+  "cancellations": {
+    "category": "Cancellations",
+    "policy": "Orders can be canceled for a full refund if requested before the status moves to 'Shipped' or 'In Transit'."
+  },
+  "payment_problems": {
+    "category": "Payment Issue",
+    "policy": "Duplicate charges or payment failures require verification with the payment processor. Refunds for duplicate charges are issued within 2 business days upon confirmation."
+  }
+}
