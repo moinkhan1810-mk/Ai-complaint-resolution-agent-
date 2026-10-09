@@ -1,0 +1,7 @@
+order_id,customer_ref,order_date,expected_delivery,delivered_date,status,tracking_ref,items,order_total
+ORD-1001,Ayesha Khan,2026-09-18,2026-09-29,,In Transit,TRK-88421-PK,Wireless Headphones,89.99
+ORD-1002,Daniel Lee,2026-09-30,2026-10-05,2026-10-06,Delivered,TRK-55102-US,Ceramic Dinner Set,64.50
+ORD-1003,Sara Ahmed,2026-10-07,2026-10-14,,Processing,,Yoga Mat; Water Bottle,42.00
+ORD-1004,John Smith,2026-07-30,2026-08-06,2026-08-05,Delivered,TRK-19377-UK,Running Shoes,120.00
+ORD-1005,Maria Garcia,2026-09-28,2026-10-03,2026-10-04,Delivered,TRK-70415-ES,Kitchen Knife Set; Cutting Board; Apron,98.75
+ORD-1006,Omar Farooq,2026-10-08,2026-10-15,,Pending Payment,,Desk Lamp,35.00
